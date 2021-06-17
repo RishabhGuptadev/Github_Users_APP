@@ -1,0 +1,6 @@
+export const SEARCHBEGIN = "SEARCHBEGIN"
+export const SEARCHSUCCESS = "SEARCHSUCCESS"
+export const SEARCHERROR = "SEARCHERROR"
+export const LOADING = "LOADING"
+
+

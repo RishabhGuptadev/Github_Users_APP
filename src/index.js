@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {GithubProvider} from "./GitHubContext/GitHubContext";
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+    <GithubProvider>
+      <App />  
+    </GithubProvider>
+  
+  ,
   document.getElementById('root')
 );
 
